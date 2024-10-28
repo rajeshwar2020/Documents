@@ -43,25 +43,25 @@ sudo systemctl status jenkins
 
 NOTE: below are few additional commands
 
-              to stop jenkins
-              ```
-              sudo systemctl stop jenkins
-              ```
+to stop jenkins
+```
+sudo systemctl stop jenkins
+```
 
-              to restart jenkins
-              ```
-              sudo systemctl restart jenkins
-              ```
+to restart jenkins
+```
+sudo systemctl restart jenkins
+```
 
-              If you want to disable Jenkins from starting automatically on boot
-              ```
-              sudo systemctl disable jenkins
-              ```
+If you want to disable Jenkins from starting automatically on boot
+```
+sudo systemctl disable jenkins
+```
 
-              To re-enable Jenkins to start automatically on system boot after disabling it
-              ```
-              sudo systemctl enable jenkins
-              ```
+To re-enable Jenkins to start automatically on system boot after disabling it
+```
+sudo systemctl enable jenkins
+```
 
 6) Access jenkins server in browser using VM public ip
 
