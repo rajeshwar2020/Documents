@@ -7,7 +7,7 @@
 
 # Step-1 : Jenkins Server Setup in Linux VM #
 
-1) Create Ubuntu VM using AWS EC2 (t2.medium) <br/>
+1) Create Ubuntu VM using AWS EC2 (t2.medium) with atleast 50 GB storage<br/>
 2) Enable 8080 Port Number in Security Group Inbound Rules
 3) Connect to VM using MobaXterm
 4) Install Java
