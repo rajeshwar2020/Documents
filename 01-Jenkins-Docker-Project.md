@@ -41,25 +41,13 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 ```
 
-NOTE: below are few additional commands
+NOTE: below are few additional commands for understanding purpose
 
-to stop jenkins
+To stop, restart, disable/enable jenkins on system start-up
 ```
 sudo systemctl stop jenkins
-```
-
-to restart jenkins
-```
 sudo systemctl restart jenkins
-```
-
-If you want to disable Jenkins from starting automatically on boot
-```
 sudo systemctl disable jenkins
-```
-
-To re-enable Jenkins to start automatically on system boot after disabling it
-```
 sudo systemctl enable jenkins
 ```
 
